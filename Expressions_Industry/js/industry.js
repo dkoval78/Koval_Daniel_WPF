@@ -19,10 +19,16 @@ var totalLoans = prompt("How many student loans do you have?");
 //Console.log out the response
 console.log(totalLoans);
 
-//Find out much much the user owes on average
+//Find out how much the user owes on average
 var avgOwed = prompt("How much do you owe on average per loan?");
 
 //Console.log out the results
 console.log(avgOwed);
+
+//Find out what the average interest rate is
+var avgInterest = prompt("What is your average interest rate?");
+
+//Console.log out the results
+console.log(avgInterest);
 
 
