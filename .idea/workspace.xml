@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="30810202-a3e3-4dca-a536-a5d9647f0a2c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_Wacky/js/wacky.js" afterPath="$PROJECT_DIR$/Expressions_Wacky/js/wacky.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Koval_Daniel_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="wacky.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expressions_Wacky/js/wacky.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56277055" vertical-offset="0" max-vertical-offset="693">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.71428573" vertical-offset="0" max-vertical-offset="693">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -357,8 +356,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Wacky/js/wacky.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56277055" vertical-offset="0" max-vertical-offset="693">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.71428573" vertical-offset="0" max-vertical-offset="693">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
