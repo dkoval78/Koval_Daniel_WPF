@@ -69,3 +69,4 @@ var twentyYear = finalAmount / loanTerms [2];
 console.log("Over the 25 year repayment plan, your estimated monthly payment would be $" + twentyYear + ".");
 
 //Alert the user how much the amount would be for a 25 year repayment plan
+alert("Over the 25 year repayment plan, your estimated monthly payment would be $" + twentyYear + ".");
