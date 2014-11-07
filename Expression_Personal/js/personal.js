@@ -14,7 +14,7 @@ var name = prompt("What is your name?");
 console.log(name);
 
 //Ask how much user pays for each tank of gas
-var dollarsTank = prompt(name + ", how much does it cost to fill your gas tank?");
+var dollarsTank = prompt(name + ", how much does it cost to fill your gas tank? (Do not include dollar sign)");
 
 //Console.log out the response
 console.log(dollarsTank);
@@ -37,7 +37,7 @@ console.log(monthsYear);
 var dollarsYear = dollarsTank * timesMonth * monthsYear ;
 
 //Alert user with the dollar amount
-alert(name + " based on your answers, you will pay " + dollarsYear + " this year.");
+alert(name + " based on your answers, you will pay $" + dollarsYear + " for gas this year.");
 
 //Console.log out the response
 console.log(dollarsYear);
