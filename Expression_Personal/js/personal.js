@@ -36,8 +36,8 @@ console.log(monthsYear);
 //Calculate how much they will pay for gas in a year
 var dollarsYear = dollarsTank * timesMonth * monthsYear ;
 
+//Console.log out the response
+console.log(name + " based on your answers, you will pay $" + dollarsYear + " for gas this year.");
+
 //Alert user with the dollar amount
 alert(name + " based on your answers, you will pay $" + dollarsYear + " for gas this year.");
-
-//Console.log out the response
-console.log(dollarsYear);
