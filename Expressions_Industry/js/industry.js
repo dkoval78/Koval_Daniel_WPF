@@ -8,7 +8,7 @@ expressions industry
 //To determine how much the user can expect to pay in student loans
 
 //Array of loan terms in years
-var loanTerms = ['10', "15", "25"];
+var loanTerms = ["120", "180", "300"];
 
 //Console.log out the response
 console.log(loanTerms);
@@ -26,7 +26,7 @@ var avgOwed = prompt("How much do you owe on average per loan?");
 console.log(avgOwed);
 
 //Find out what the average interest rate is
-var avgInterest = prompt("What is your average interest rate?");
+var avgInterest = prompt("What is your average interest rate? (i.e. 2.5% = .025");
 
 //Console.log out the results
 console.log(avgInterest);
@@ -45,7 +45,7 @@ console.log("Based on this information, the total amount owed will be $" + final
 alert("Based on this information, the total amount owed will be $" + finalAmount);
 
 //Calculate the monthly payment based on a 10 year repayment plan
-var tenYear = finalAmount / [0];
+var tenYear = finalAmount / loanTerms [0];
 
 //Alert the user how much the amount would be for a 10 year repayment plan
 alert("Over the 10 year repayment plan, your estimated monthly payment would be $" + tenYear + ".");
