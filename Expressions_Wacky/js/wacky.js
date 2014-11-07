@@ -41,9 +41,14 @@ alert("Based on your answers, you spend an average of " + avgDay + " per day pla
 //Subtract out one day per week
 var newTotal = daysWeek - 1;
 
-//Calculate new average
+//Calculate new totals for the year
 var newCalc = hoursDay * newTotal * weeksYear;
 
+//Calculate new average per year
 var newAvg = newCalc / 365;
+
+//Console.log out the results
+console.log("If you played one less day per week, your new total would be " + newAvg);
+
 //Let user know what the total would be if they played one less day per week
-alert("If you played one less day per week, your new total would be " + newAvg);
+alert("If you played one less day per week, your new total would be " + newAvg + " per day.");
