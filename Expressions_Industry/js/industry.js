@@ -31,4 +31,11 @@ var avgInterest = prompt("What is your average interest rate?");
 //Console.log out the results
 console.log(avgInterest);
 
+//Calculate the totals
+var totalOwed = totalLoans * avgOwed;
 
+var finalInterest = totalOwed * avgInterest;
+
+var finalAmount = totalOwed + finalInterest;
+
+//Alert the user how much the amount would be for a 10 year repayment plan
