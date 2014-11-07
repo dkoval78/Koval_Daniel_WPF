@@ -12,3 +12,13 @@ var dollarsTank = prompt("How much does it cost to fill your gas tank?");
 
 //Console.log out the response
 console.log(dollarsTank);
+
+//Ask how often they fill their tank per week
+
+var timesMonth = prompt("How many times do you fill your tank per month?");
+
+//Console.log out the response
+console.log(timesMonth);
+
+//Ask how any months in a year
+
