@@ -5,8 +5,18 @@ WPF section 01
 expressions industry
  */
 
-//To determine how much the user can expect to repay in student loans
+//To determine how much the user can expect to pay in student loans
 
 //Array of loan terms in years
 var loanTerms = ['10', "15", "25"];
+
+//Console.log out the response
+console.log(loanTerms);
+
+//Find out how many loans the user has
+var totalLoans = prompt("How many student loans do you have?");
+
+//Console.log out the response
+console.log(totalLoans);
+
 
