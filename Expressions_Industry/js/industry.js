@@ -45,6 +45,7 @@ console.log("Based on this information, the total amount owed will be $" + final
 alert("Based on this information, the total amount owed will be $" + finalAmount);
 
 //Calculate the monthly payment based on a 10 year repayment plan
+var tenYear = finalAmount / [0];
 
 //Alert the user how much the amount would be for a 10 year repayment plan
-alert("Over the 10 year repayment plan, your estimated monthly payment would be")
+alert("Over the 10 year repayment plan, your estimated monthly payment would be $" + tenYear + ".");
