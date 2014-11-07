@@ -60,3 +60,12 @@ var fifteenYear = finalAmount / loanTerms [1];
 console.log("Over the 15 year repayment plan, your estimated monthly payment would be $" + fifteenYear + ".");
 
 //Alert the user how much the amount would be for a 15 year repayment plan
+alert("Over the 15 year repayment plan, your estimated monthly payment would be $" + fifteenYear + ".");
+
+//Calculate the monthly payment based on a 25 year repayment plan
+var twentyYear = finalAmount / loanTerms [2];
+
+//Console.log out the results for 25 years
+console.log("Over the 25 year repayment plan, your estimated monthly payment would be $" + twentyYear + ".");
+
+//Alert the user how much the amount would be for a 25 year repayment plan
