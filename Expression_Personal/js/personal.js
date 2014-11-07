@@ -22,3 +22,7 @@ console.log(timesMonth);
 
 //Ask how any months in a year
 
+var monthsYear = prompt("How many months are in a year?");
+
+//Console.log out the response
+console.log(monthsYear);
