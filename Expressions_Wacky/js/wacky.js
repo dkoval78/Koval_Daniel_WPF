@@ -27,15 +27,22 @@ console.log(weeksYear);
 
 //Calculate the total number of hours spent playing video games per year
 
-var hoursWeek = hoursDay * daysWeek * weeksYear;
+var hoursYear = hoursDay * daysWeek * weeksYear;
 
 //Calculate the average number of hours per day spent playing video games
-var avgDay = hoursWeek / 365;
+var avgDay = hoursYear / 365;
 
 //Console.log out the results
 console.log("Based on your answers, you spend an average of " + avgDay + " per day playing video games.");
 
 //Let the user know how many hours they play on average per day
 alert("Based on your answers, you spend an average of " + avgDay + " per day playing video games.");
-//Let user know what the total would be if they played one less hour per day
 
+//Subtract out one day per week
+var newTotal = daysWeek - 1;
+
+//Calculate new average
+var newAvg = newTotal / 365;
+
+//Let user know what the total would be if they played one less day per week
+alert("If you played one less day per week, your new total would be " + newAvg);
