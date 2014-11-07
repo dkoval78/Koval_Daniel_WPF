@@ -26,7 +26,7 @@ var avgOwed = prompt("How much do you owe on average per loan?");
 console.log(avgOwed);
 
 //Find out what the average interest rate is
-var avgInterest = prompt("What is your average interest rate? (i.e. 2.5% = .025");
+var avgInterest = prompt("What is your average interest rate? (i.e. 2.5% = .025)");
 
 //Console.log out the results
 console.log(avgInterest);
