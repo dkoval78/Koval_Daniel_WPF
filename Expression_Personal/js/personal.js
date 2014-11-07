@@ -26,3 +26,9 @@ var monthsYear = prompt("How many months are in a year?");
 
 //Console.log out the response
 console.log(monthsYear);
+
+//Calculate how much they will pay for gas in a year
+var dollarsYear = dollarsTank * timesMonth * monthsYear ;
+
+//Console.log out the response
+console.log(dollarsYear);
