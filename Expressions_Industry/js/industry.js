@@ -47,5 +47,16 @@ alert("Based on this information, the total amount owed will be $" + finalAmount
 //Calculate the monthly payment based on a 10 year repayment plan
 var tenYear = finalAmount / loanTerms [0];
 
+//Console.log out the results for 10 years
+console.log("Over the 10 year repayment plan, your estimated monthly payment would be $" + tenYear + ".");
+
 //Alert the user how much the amount would be for a 10 year repayment plan
 alert("Over the 10 year repayment plan, your estimated monthly payment would be $" + tenYear + ".");
+
+//Calculate the monthly payment based on a 15 year repayment plan
+var fifteenYear = finalAmount / loanTerms [1];
+
+//Console.log out the results for 15 years
+console.log("Over the 15 year repayment plan, your estimated monthly payment would be $" + fifteenYear + ".");
+
+//Alert the user how much the amount would be for a 15 year repayment plan
