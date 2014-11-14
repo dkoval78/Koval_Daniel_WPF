@@ -45,12 +45,12 @@ expressions personal
 
  var userDrinks = prompt("Do you drink alcohol?");
 
- if (userDrink === ""){
+ if (userDrinks === ""){
 
-     userDrink = prompt("Please tell us if you drink alcohol.");
+     userDrinks = prompt("Please tell us if you drink alcohol.");
  }
- 
- if (age >= 21 && userDrink === "yes"){
+
+ if (age >= 21 && userDrinks === "yes"){
 
   alert("We will have a great variety of drinks for you to try!");
 
