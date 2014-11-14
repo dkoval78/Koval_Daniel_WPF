@@ -20,7 +20,7 @@ expressions personal
 
  //Validate prompt to ensure it is not empty.
 
- if (age === "") {
+ if (age === ""){
 
      age = prompt("Please enter a valid age.");
  }
@@ -44,3 +44,22 @@ expressions personal
 //Ask to see if the user drinks alcohol.
 
  var userDrinks = prompt("Do you drink alcohol?");
+
+ if (userDrink === ""){
+
+     userDrink = prompt("Please tell us if you drink alcohol.");
+ }
+ 
+ if (age >= 21 && userDrink === "yes"){
+
+  alert("We will have a great variety of drinks for you to try!");
+
+  console.log("We will have a great variety of drinks for you to try!");
+
+ }else{
+
+  alert("We will have several non-alcoholic drinks for you to enjoy!");
+
+  console.log("We will have several non-alcoholic drinks for you to enjoy!");
+
+ }
