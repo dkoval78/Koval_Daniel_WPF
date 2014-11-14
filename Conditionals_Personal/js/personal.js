@@ -47,7 +47,7 @@ expressions personal
 
  if (userDrinks === ""){
 
-     userDrinks = prompt("Please tell us if you drink alcohol.");
+     userDrinks = prompt("Please tell us if you enjoy adult beverages.");
  }
 
  if (age >= 21 && userDrinks === "yes"){
@@ -56,10 +56,16 @@ expressions personal
 
   console.log("We will have a great variety of drinks for you to try!");
 
- }else{
+    if (age >= 21 && userDrinks === "no") {
 
-  alert("We will have several non-alcoholic drinks for you to enjoy!");
+     alert("We will have a great variety of non-alcoholic drinks for you to enjoy!");
 
-  console.log("We will have several non-alcoholic drinks for you to enjoy!");
+    }
+
+    }else{
+
+  alert("Even though you're not old enough for adult beverages, we will have several non-alcoholic drinks for you to enjoy!");
+
+  console.log("Even though you're not old enough for adult beverages, we will have several non-alcoholic drinks for you to enjoy!");
 
  }
