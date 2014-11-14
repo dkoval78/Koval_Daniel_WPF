@@ -10,7 +10,7 @@ expressions personal
 
  var student = "yes" || "no";
 
- var studentStatus = "full time" || "half time";
+ var studentStatus = "yes" || "no";
 
  //Determine if the user is a student
 
@@ -41,5 +41,20 @@ expressions personal
 
   console.log("Sorry, you cannot receive student loans unless you are a student!");
  }
+
+ //Ask to see if the user is at least a half-time student.
+
+ var studentStatus = prompt("Are you attending at least half time?");
+
+ console.log(studentStatus);
+
+ //Validate prompt to ensure it is not blank.
+
+ if(studentStatus === ""){
+
+    studentStatus = prompt("Please tell us if you are attending at least half time.");
+ }
+
+ console.log(studentStatus);
 
  

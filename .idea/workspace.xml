@@ -29,8 +29,8 @@
       <file leaf-file-name="industry.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conditionals_Industry/js/industry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.95238096" vertical-offset="0" max-vertical-offset="750">
-              <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.95671" vertical-offset="222" max-vertical-offset="975">
+              <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -39,7 +39,7 @@
       <file leaf-file-name="personal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Conditionals_Personal/js/personal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1230">
+            <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1230">
               <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
               <folding />
             </state>
@@ -761,8 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Industry/js/industry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95238096" vertical-offset="0" max-vertical-offset="750">
-          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.95671" vertical-offset="222" max-vertical-offset="975">
+          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
           <folding />
         </state>
       </provider>
