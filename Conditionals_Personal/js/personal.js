@@ -22,8 +22,18 @@ expressions personal
 
  if (age === "") {
 
-  age = prompt("Please enter a valid age.");
+     age = prompt("Please enter a valid age.");
  }
 
  console.log(age);
- 
+
+ if (age >= 21){
+
+  alert("You're old enough to join us for Happy Hour!");
+
+  console.log("You're old enough to join us for Happy Hour!");
+
+ }else{
+
+  alert("Even though you're not old enough for Happy Hour, you can join us for non-alcoholic drinks!");
+ }
