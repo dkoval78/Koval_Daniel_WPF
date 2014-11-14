@@ -33,5 +33,13 @@ expressions personal
 
   alert("You may be eligible for student loans!");
 
-  console.log(student);
+  console.log("You may be eligible for student loans!");
+
+ }else{
+
+  alert("Sorry, you cannot receive student loans unless you are a student!");
+
+  console.log("Sorry, you cannot receive student loans unless you are a student!");
  }
+
+ 
