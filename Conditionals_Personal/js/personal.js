@@ -27,6 +27,8 @@ expressions personal
 
  console.log(age);
 
+ //See if the user is old enough to drink.
+
  if (age >= 21){
 
   alert("You're old enough to join us for Happy Hour!");
@@ -45,20 +47,21 @@ expressions personal
 
  var userDrinks = prompt("Do you drink alcohol?");
 
- if (userDrinks === ""){
+ if (userDrinks === "") {
 
-     userDrinks = prompt("Please tell us if you enjoy adult beverages.");
- }
-
- if (age >= 21 && userDrinks === "yes"){
-
-  alert("We will have a great variety of drinks for you to try!");
-
-  console.log("We will have a great variety of drinks for you to try!");
+  userDrinks = prompt("Please tell us if you enjoy adult beverages.");
 
  }
 
-  if (age >= 21 && userDrinks === "no"){
+  if (age >= 21 && userDrinks === "yes"){
+
+   alert("We will have a great variety of drinks for you to try!");
+
+   console.log("We will have a great variety of drinks for you to try!");
+
+  }
+
+ if (age >= 21 && userDrinks === "no"){
 
    alert("We will have a great variety of non-alcoholic drinks for you to enjoy!");
 
