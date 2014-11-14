@@ -6,7 +6,7 @@ WPF section 01
 expressions personal
  */
 
- //To determine if a person is old enough and interested in receiving information about MediCare.
+ //To determine if a person is old enough and interested in receiving information about Medicare.
 
  var age = 65;
 
@@ -27,24 +27,24 @@ expressions personal
 
  console.log(age);
 
- //Check to see if the user may qualify for MediCare.
+ //Check to see if the user may qualify for Medicare.
 
  if (age >= 65){
 
-  alert("You may qualify for MediCare!");
+  alert("You may qualify for Medicare!");
 
-  console.log("You may qualify for MediCare!");
+  console.log("You may qualify for Medicare!");
 
  }else{
 
-  alert("You are not eligible for MediCare yet.");
+  alert("You are not eligible for Medicare yet.");
 
   console.log("You are not eligible for Medicare yet.");
  }
 
  //Ask to see if the user is interested in receiving information about MediCare.
 
- var interest = prompt("Are you interested in receiving information regarding MediCare?");
+ var interest = prompt("Are you interested in receiving information regarding Medicare?");
 
  //Validate the prompt to make sure it is not empty.
 

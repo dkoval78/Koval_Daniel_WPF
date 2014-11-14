@@ -49,8 +49,8 @@
       <file leaf-file-name="wacky.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/js/wacky.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.36363637" vertical-offset="417" max-vertical-offset="1110">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6753247" vertical-offset="357" max-vertical-offset="1110">
+              <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -759,8 +759,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/js/wacky.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.36363637" vertical-offset="417" max-vertical-offset="1110">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6753247" vertical-offset="357" max-vertical-offset="1110">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
           <folding />
         </state>
       </provider>
