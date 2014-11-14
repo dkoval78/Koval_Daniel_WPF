@@ -29,11 +29,15 @@ expressions personal
 
  if (age >= 65){
 
-    console.log("You may qualify for MediCare!");
+  alert("You mar qualify for MediCare!");
+
+  console.log("You may qualify for MediCare!");
 
  }else{
 
-    console.log("You are not eligible for Medicare yet.");
+  alert("You are not eligible for MediCare yet.");
+
+  console.log("You are not eligible for Medicare yet.");
  }
 
  //Ask to see if the user is interested in receiving information about MediCare.
