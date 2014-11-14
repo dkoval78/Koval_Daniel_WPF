@@ -10,4 +10,15 @@ expressions personal
 
  var age = 65;
 
- var interest = yes;
+ var interest = "yes";
+
+ //Determine how old the user is
+
+ if (age >= 65){
+
+    console.log("You may qualify for MediCare!");
+
+ }else{
+
+    console.log("You are not eligible for Medicare yet.");
+ }
