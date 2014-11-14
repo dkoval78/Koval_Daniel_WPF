@@ -14,6 +14,19 @@ expressions personal
 
  //Determine how old the user is
 
+ var age = prompt("Please enter your current age.");
+
+ console.log(age);
+
+ //Validate the prompt to make sure it is not empty.
+
+ if (name === ""){
+
+    name = prompt("Please enter a valid age.");
+ }
+
+ console.log(age);
+ 
  if (age >= 65){
 
     console.log("You may qualify for MediCare!");
