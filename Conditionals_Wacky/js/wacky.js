@@ -6,3 +6,8 @@ WPF section 01
 expressions personal
  */
 
+ //To determine if a person is old enough and interested in receiving information about MediCare.
+
+ var age = 65;
+
+ var interest = yes;
