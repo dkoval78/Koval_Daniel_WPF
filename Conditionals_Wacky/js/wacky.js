@@ -27,9 +27,11 @@ expressions personal
 
  console.log(age);
 
+ //Check to see if the user may qualify for MediCare.
+
  if (age >= 65){
 
-  alert("You mar qualify for MediCare!");
+  alert("You may qualify for MediCare!");
 
   console.log("You may qualify for MediCare!");
 
@@ -43,3 +45,16 @@ expressions personal
  //Ask to see if the user is interested in receiving information about MediCare.
 
  var interest = prompt("Are you interested in receiving information regarding MediCare?");
+
+ if (interest === "yes"){
+
+    alert("Please visit www.medicare.gov.");
+
+    console.log("Please visit www.medicare.gov");
+ }else{
+
+    alert("Thank you for your interest!");
+
+    console.log("Thank you for your interest!");
+ }
+
