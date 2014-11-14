@@ -26,4 +26,12 @@ expressions personal
  }
 
  console.log(student);
- 
+
+ //See if the student is eligible for loans.
+
+ if(student === "yes"){
+
+  alert("You may be eligible for student loans!");
+
+  console.log(student);
+ }
