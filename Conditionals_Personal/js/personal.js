@@ -10,7 +10,7 @@ expressions personal
 
  var age = 21;
 
- var interest = "yes";
+ var userDrinks = "yes";
 
  //Determine if the user is old enough to drink.
 
@@ -35,5 +35,12 @@ expressions personal
 
  }else{
 
-  alert("Even though you're not old enough for Happy Hour, you can join us for non-alcoholic drinks!");
+  alert("Even though you're not old enough for Happy Hour, you can still join us for non-alcoholic drinks!");
+
+  console.log("Even though you're not old enough for Happy Hour, you can still join us for non-alcoholic drinks!");
+
  }
+
+//Ask to see if the user drinks alcohol.
+
+ var userDrinks = prompt("Do you drink alcohol?");
