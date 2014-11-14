@@ -57,4 +57,15 @@ expressions personal
 
  console.log(studentStatus);
 
- 
+ if(studentStatus === "yes"){
+
+  alert("Please talk to your financial aid officer to see how much you qualify for!");
+
+  console.log("Please talk to your financial aid officer to see how much you qualify for!");
+ }else{
+
+  alert("Please talk to your financial aid officer to see how you can qualify for loans.");
+
+  console.log("Please talk to your financial aid officer to see how you can qualify for loans.");
+ }
+

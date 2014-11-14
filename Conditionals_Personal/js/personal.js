@@ -47,6 +47,9 @@ expressions personal
 
  var userDrinks = prompt("Do you drink alcohol?");
 
+
+ //Validate prompt
+
  if (userDrinks === "") {
 
   userDrinks = prompt("Please tell us if you enjoy adult beverages.");

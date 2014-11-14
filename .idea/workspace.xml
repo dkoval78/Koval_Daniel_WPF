@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="30810202-a3e3-4dca-a536-a5d9647f0a2c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Industry/js/industry.js" afterPath="$PROJECT_DIR$/Conditionals_Industry/js/industry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Personal/js/personal.js" afterPath="$PROJECT_DIR$/Conditionals_Personal/js/personal.js" />
     </list>
     <ignored path="Koval_Daniel_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +30,8 @@
       <file leaf-file-name="industry.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conditionals_Industry/js/industry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.95671" vertical-offset="222" max-vertical-offset="975">
-              <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.8701299" vertical-offset="342" max-vertical-offset="1155">
+              <caret line="63" column="92" selection-start-line="63" selection-start-column="92" selection-end-line="63" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -39,8 +40,8 @@
       <file leaf-file-name="personal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Conditionals_Personal/js/personal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1230">
-              <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1275">
+              <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -753,16 +754,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Personal/js/personal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
-          <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1275">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Industry/js/industry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95671" vertical-offset="222" max-vertical-offset="975">
-          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.8701299" vertical-offset="342" max-vertical-offset="1155">
+          <caret line="63" column="92" selection-start-line="63" selection-start-column="92" selection-end-line="63" selection-end-column="92" />
           <folding />
         </state>
       </provider>
