@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30810202-a3e3-4dca-a536-a5d9647f0a2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Personal/js/personal.js" afterPath="$PROJECT_DIR$/Conditionals_Personal/js/personal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Industry/js/industry.js" afterPath="$PROJECT_DIR$/Conditionals_Industry/js/industry.js" />
     </list>
     <ignored path="Koval_Daniel_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="industry.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="industry.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conditionals_Industry/js/industry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.34632036" vertical-offset="0" max-vertical-offset="693">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="personal.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="personal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Conditionals_Personal/js/personal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.95671" vertical-offset="477" max-vertical-offset="1230">
-              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
+              <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -80,6 +80,7 @@
         <option value="$PROJECT_DIR$/Conditionals_Industry/index.html" />
         <option value="$PROJECT_DIR$/Conditionals_Wacky/js/wacky.js" />
         <option value="$PROJECT_DIR$/Conditionals_Personal/js/personal.js" />
+        <option value="$PROJECT_DIR$/Conditionals_Industry/js/industry.js" />
       </list>
     </option>
   </component>
@@ -734,14 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conditionals_Industry/js/industry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Personal/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22421524" vertical-offset="0" max-vertical-offset="669">
@@ -760,8 +753,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Personal/js/personal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95671" vertical-offset="477" max-vertical-offset="1230">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
+          <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditionals_Industry/js/industry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34632036" vertical-offset="0" max-vertical-offset="693">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>
