@@ -20,9 +20,9 @@ expressions personal
 
  //Validate the prompt to make sure it is not empty.
 
- if (name === ""){
+ if (age === ""){
 
-    name = prompt("Please enter a valid age.");
+    age = prompt("Please enter a valid age.");
  }
 
  console.log(age);
@@ -46,11 +46,19 @@ expressions personal
 
  var interest = prompt("Are you interested in receiving information regarding MediCare?");
 
+ //Validate the prompt to make sure it is not empty.
+
+ if (interest === ""){
+
+     interest = prompt("Please indicate 'yes' or 'no'");
+ }
+
  if (interest === "yes"){
 
     alert("Please visit www.medicare.gov.");
 
     console.log("Please visit www.medicare.gov");
+
  }else{
 
     alert("Thank you for your interest!");
