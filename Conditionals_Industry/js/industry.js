@@ -3,7 +3,7 @@
 Daniel Koval
 WPF section 01
 11/6/14
-expressions personal
+Conditionals Industry
  */
 
 //To determine if a user is a student and if they are eligible for student loans.
