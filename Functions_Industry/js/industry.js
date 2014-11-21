@@ -31,22 +31,22 @@ Functions Industry
 //console.log results
  console.log(week);
 
- if (week === 1){
+ if (week === "1"){
 
     var percentOne = 1.00
- }else if (week = 2){
+ }else if (week === "2"){
 
     var percentOne = .80
- }else if (week = 3){
+ }else if (week === "3"){
 
     var percentOne = .60
- }else if (week = 4){
+ }else if (week === "4"){
 
     var percentOne = .55
- }else if (week = 5){
+ }else if (week === "5"){
 
     var percentOne = .50
- }else if (week = 6){
+ }else if (week === "6"){
 
     var percentOne = .30
  }else{
@@ -57,10 +57,10 @@ Functions Industry
 
  console.log("The amount of tuition you'll be credited is " + result);
 
- //Function to generate total tuition credited back to student ledger
+ //Function to generate total tuition credited back to student ledger minus withdraw fee
  function amountBack(tuitionBack,percentageFromWeek){
 
-     var totalBack = (tuitionBack * percentageFromWeek);
+     var totalBack = ((tuitionBack * percentageFromWeek) - 75);
 
      return totalBack;
  }
