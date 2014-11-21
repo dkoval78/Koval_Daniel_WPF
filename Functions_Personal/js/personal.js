@@ -35,24 +35,30 @@ Functions Personal
  console.log(service);
 
  //Determine the answer and how much to tip
- if (service === "yes" || "y"){
+ if (service === "yes"){
 
+   var tipPercentage = .25
+ }else if (service === "no"){
 
- }else if (service === "no" || "n"){
-
-
+   var tipPercentage = .15
  }else{
 
-  service = prompt("Were you happy with the service you received?")
+  service = prompt("Were you happy with the service you received? (Enter 'yes' or 'no'")
  }
 
  //Call the function
- var result = calculateTip(bill,service);
- 
-//Function to calculate tip
- function calculateTip(totalBill,tipPercentage){
+ var result = calculateTip(bill,tipPercentage);
 
-  var amountTip = (totalBill * tipPercentage);
+ //Console.log result
+ console.log(result);
+
+ //Alert the amount to tip
+ alert("You should tip somewhere around $" + result + " to your waiter/waitress.");
+
+//Function to calculate tip
+ function calculateTip(totalBill,totalPercentage){
+
+  var amountTip = (totalBill * totalPercentage);
 
   return amountTip;
  }
