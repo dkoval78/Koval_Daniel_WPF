@@ -18,3 +18,8 @@ Functions Industry
  }
 
  var weekDropped = prompt("Please enter the week you dropped (week 1-10)");
+
+ while(isNaN(weekDropped) || weekDropped==="" || weekDropped ==="0" || weekDropped > 10){
+
+  weekDropped = prompt("Please enter the week you dropped (week 1-10)");
+ }
