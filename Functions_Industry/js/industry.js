@@ -31,6 +31,7 @@ Functions Industry
 //console.log results
  console.log(week);
 
+ //Determining what percentage to credit back based on the week the student dropped
  if (week === "1"){
 
     var percentOne = 1.00
