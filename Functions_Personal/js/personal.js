@@ -49,10 +49,13 @@ Functions Personal
  if (service === "yes"){
 
   var tipPercentage = .25
- }else if (service === "no") {
+ }else if (service === "no"){
 
   var tipPercentage = .15
  }
+
+ //Ternary
+ (service === "yes") ? console.log("You should tip 25%") : console.log("You should tip 15%");
 
  //Call the function
  var result = calculateTip(bill,tipPercentage);
