@@ -48,8 +48,16 @@ Functions Wacky
  var golfClubs = prompt("Are you willing to get fitted for custom clubs?");
 
  //Validate prompt to ensure that it is not blank
- 
+
  while(golfClubs === ""){
 
     golfClubs = prompt("Are you willing to get fitted for custom clubs? 'yes' or 'no'");
+ }
+ //Determine answer to see if golf score can improve
+ if (golfClubs === 'yes'){
+
+    shotClubs = 5
+ }else if (golfClubs === 'no'){
+
+    shotClubs = 0
  }
