@@ -28,12 +28,12 @@ Functions Industry
  }
 
  //Call the function
- amountBack(tuition,week);
+ var result = amountBack(tuition,week);
 
  //Function to generate total tuition credited back to student ledger
  function amountBack(tuitionBack,percentageFromWeek){
 
-     var totalBack = math.round
+     var totalBack = math.round(tuitionBack*percentageFromWeek);
 
      return totalBack;
  }
