@@ -40,7 +40,7 @@ Functions Wacky
     shotLessons = 0
  }else{
 
-    golfLessons = prompt("Are you willing to take golf lessons? ('yes' or 'no'");
+    golfLessons = prompt("Are you willing to take golf lessons? ('yes' or 'no')");
  }
  if (golfLessons === "yes"){
 
@@ -72,4 +72,26 @@ Functions Wacky
  }else{
 
     golfClubs = prompt("Are you willing to get fitted for custom clubs? ('yes' or 'no')");
+ }
+ if (golfClubs === 'yes'){
+
+  shotClubs = 5
+ }else if (golfClubs === 'no'){
+
+  shotClubs = 0
+ }
+ //Call the function
+ var results = totalShotsLess(golfScore,shotLessons,shotClubs);
+
+ //Console.log results
+ console.log(results);
+
+ alert("You can expect to shoot around " + results + " by implementing the things listed.");
+
+ //Function to calculate new golf score
+ function totalShotsLess(beginningScore,scoreLessons,scoreClubs){
+
+    var newScore = (beginningScore - scoreLessons - scoreClubs);
+
+    return newScore;
  }
