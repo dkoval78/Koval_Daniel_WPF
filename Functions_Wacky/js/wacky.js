@@ -27,7 +27,7 @@ Functions Wacky
  //Validate prompt to ensure that it is not blank
  while(golfLessons === ""){
 
-   golfLessons = prompt("Are you willing to take golf lessons? ('yes' no 'no')");
+   golfLessons = prompt("Are you willing to take golf lessons? ('yes' or 'no')");
 
  }
 
@@ -38,8 +38,17 @@ Functions Wacky
  }else if (golfLessons === "no"){
 
     shotLessons = 0
- }
+ }else{
 
+    golfLessons = prompt("Are you willing to take golf lessons? ('yes' or 'no'");
+ }
+ if (golfLessons === "yes"){
+
+  shotLessons = 8
+ }else if (golfLessons === "no"){
+
+  shotLessons = 0
+ }
  //Console.log results
  console.log(golfLessons);
 
@@ -51,7 +60,7 @@ Functions Wacky
 
  while(golfClubs === ""){
 
-    golfClubs = prompt("Are you willing to get fitted for custom clubs? 'yes' or 'no'");
+    golfClubs = prompt("Are you willing to get fitted for custom clubs? ('yes' or 'no')");
  }
  //Determine answer to see if golf score can improve
  if (golfClubs === 'yes'){
@@ -60,4 +69,7 @@ Functions Wacky
  }else if (golfClubs === 'no'){
 
     shotClubs = 0
+ }else{
+
+    golfClubs = prompt("Are you willing to get fitted for custom clubs? ('yes' or 'no')");
  }
