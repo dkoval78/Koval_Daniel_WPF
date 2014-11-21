@@ -58,6 +58,8 @@ Functions Industry
 
  console.log("The amount of tuition you'll be credited is " + result);
 
+ alert("You can expect back $" + result + " in tuition credit.");
+
  //Function to generate total tuition credited back to student ledger minus withdraw fee
  function amountBack(tuitionBack,percentageFromWeek){
 
