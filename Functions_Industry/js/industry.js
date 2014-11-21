@@ -17,6 +17,8 @@ Functions Industry
 
   tuition = prompt("Please enter the total amount of tuition you were charged.");
  }
+//console.log results
+ console.log(tuition);
 
  //Ask for variable week to see how long student attended for
  var week = prompt("Please enter the week you dropped (week 1-10)");
@@ -26,10 +28,29 @@ Functions Industry
 
   week = prompt("Please enter the week you dropped (week 1-10)");
  }
+//console.log results
+ console.log(week);
 
- if (week = 1){
+ if (week === 1){
 
     var percentOne = 1.00
+ }else if (week = 2){
+
+    var percentOne = .80
+ }else if (week = 3){
+
+    var percentOne = .60
+ }else if (week = 4){
+
+    var percentOne = .55
+ }else if (week = 5){
+
+    var percentOne = .50
+ }else if (week = 6){
+
+    var percentOne = .30
+ }else{
+  var percentOne = 0
  }
  //Call the function
  var result = amountBack(tuition,percentOne);
@@ -39,7 +60,7 @@ Functions Industry
  //Function to generate total tuition credited back to student ledger
  function amountBack(tuitionBack,percentageFromWeek){
 
-     var totalBack = (tuitionBack*percentageFromWeek);
+     var totalBack = (tuitionBack * percentageFromWeek);
 
      return totalBack;
  }
