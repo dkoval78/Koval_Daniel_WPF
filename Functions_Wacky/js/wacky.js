@@ -27,6 +27,15 @@ Functions Wacky
  //Validate prompt to ensure that it is not blank
  while(golfLessons === ""){
 
-   golfLessons = prompt"Are you willing to take golf lessons? ('yes' no 'no'";
+   golfLessons = prompt("Are you willing to take golf lessons? ('yes' no 'no')");
 
+ }
+
+ //Determine answer to see if golf score can improve
+ if (golfLessons === "yes"){
+
+    shotsLessons = 8
+ }else if (golfLessons === "no"){
+
+    shotLessons = 0
  }
