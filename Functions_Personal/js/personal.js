@@ -46,6 +46,14 @@ Functions Personal
   service = prompt("Were you happy with the service you received? (Enter 'yes' or 'no'")
  }
 
+ if (service === "yes"){
+
+  var tipPercentage = .25
+ }else if (service === "no") {
+
+  var tipPercentage = .15
+ }
+
  //Call the function
  var result = calculateTip(bill,tipPercentage);
 
