@@ -46,3 +46,10 @@ Functions Personal
   service = prompt("Were you happy with the service you received?")
  }
 
+ function calculateTip(){
+
+  var amountTip = (totalBill * tipPercentage);
+
+  return amountTip;
+ }
+
