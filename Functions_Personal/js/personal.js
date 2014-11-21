@@ -34,6 +34,7 @@ Functions Personal
  //Console.log the results
  console.log(service);
 
+ //Determine the answer and how much to tip
  if (service === "yes" || "y"){
 
 
@@ -42,5 +43,6 @@ Functions Personal
 
  }else{
 
-  service = prompt("Were you happy with the service you recieved?")
+  service = prompt("Were you happy with the service you received?")
  }
+
