@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30810202-a3e3-4dca-a536-a5d9647f0a2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Personal/js/personal.js" afterPath="$PROJECT_DIR$/Functions_Personal/js/personal.js" />
-    </list>
+    <list default="true" id="30810202-a3e3-4dca-a536-a5d9647f0a2c" name="Default" comment="" />
     <ignored path="Koval_Daniel_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +37,8 @@
       <file leaf-file-name="personal.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Functions_Personal/js/personal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74025977" vertical-offset="297" max-vertical-offset="1230">
-              <caret line="54" column="2" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.9350649" vertical-offset="297" max-vertical-offset="1230">
+              <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -915,8 +913,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions_Personal/js/personal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74025977" vertical-offset="297" max-vertical-offset="1230">
-          <caret line="54" column="2" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.9350649" vertical-offset="297" max-vertical-offset="1230">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
           <folding />
         </state>
       </provider>
