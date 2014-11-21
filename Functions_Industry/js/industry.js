@@ -27,13 +27,19 @@ Functions Industry
   week = prompt("Please enter the week you dropped (week 1-10)");
  }
 
+ if (week = 1){
+
+    var percentOne = 1.00
+ }
  //Call the function
- var result = amountBack(tuition,week);
+ var result = amountBack(tuition,percentOne);
+
+ console.log("The amount of tuition you'll be credited is " + result);
 
  //Function to generate total tuition credited back to student ledger
  function amountBack(tuitionBack,percentageFromWeek){
 
-     var totalBack = math.round(tuitionBack*percentageFromWeek);
+     var totalBack = (tuitionBack*percentageFromWeek);
 
      return totalBack;
  }
