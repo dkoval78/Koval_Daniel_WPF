@@ -10,9 +10,11 @@ Functions Industry
 
  var tuition = prompt("Please enter the total amount of tuition you were charged.");
 
- //Validate prompt to make sure field is not empty and is acutally a number
+ //Validate prompt to make sure field is not empty and is actually a number
 
  while(isNaN(tuition) || tuition===""){
 
   tuition = prompt("Please enter the total amount of tuition you were charged.");
  }
+
+ var weekDropped = prompt("Please enter the week you dropped (week 1-10)");
