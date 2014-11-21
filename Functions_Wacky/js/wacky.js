@@ -22,7 +22,7 @@ Functions Wacky
 
  //Ask to see if the user is willing to take golf lessons
 
- golfLessons = prompt("Are you willing to take golf lessons?");
+ var golfLessons = prompt("Are you willing to take golf lessons?");
 
  //Validate prompt to ensure that it is not blank
  while(golfLessons === ""){
@@ -34,8 +34,22 @@ Functions Wacky
  //Determine answer to see if golf score can improve
  if (golfLessons === "yes"){
 
-    shotsLessons = 8
+    shotLessons = 8
  }else if (golfLessons === "no"){
 
     shotLessons = 0
+ }
+
+ //Console.log results
+ console.log(golfLessons);
+
+ //Ask to see if the user is willing to get fitting for custom clubs
+
+ var golfClubs = prompt("Are you willing to get fitted for custom clubs?");
+
+ //Validate prompt to ensure that it is not blank
+ 
+ while(golfClubs === ""){
+
+    golfClubs = prompt("Are you willing to get fitted for custom clubs? 'yes' or 'no'");
  }
