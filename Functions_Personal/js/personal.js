@@ -21,3 +21,26 @@ Functions Personal
 
  //Console.log the results
  console.log(bill);
+
+ //Ask if they enjoyed their service
+
+ var service = prompt("Were you happy with the service you received?");
+
+ while(service === ""){
+
+  service = prompt("Were you happy with the service you received?")
+ }
+
+ //Console.log the results
+ console.log(service);
+
+ if (service === "yes" || "y"){
+
+
+ }else if (service === "no" || "n"){
+
+
+ }else{
+
+  service = prompt("Were you happy with the service you recieved?")
+ }
