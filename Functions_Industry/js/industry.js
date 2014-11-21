@@ -18,11 +18,18 @@ Functions Industry
   tuition = prompt("Please enter the total amount of tuition you were charged.");
  }
 
- //Ask for variable weekDropped to see how long student attended for
- var weekDropped = prompt("Please enter the week you dropped (week 1-10)");
+ //Ask for variable week to see how long student attended for
+ var week = prompt("Please enter the week you dropped (week 1-10)");
 
  //Validate prompt to make sure field is not empty and is actually a valid number
- while(isNaN(weekDropped) || weekDropped==="" || weekDropped === "0" || weekDropped > 10){
+ while(isNaN(week) || week==="" || week === "0" || week > 10){
 
-  weekDropped = prompt("Please enter the week you dropped (week 1-10)");
+  week = prompt("Please enter the week you dropped (week 1-10)");
+ }
+
+ function amountBack(tuitionBack,percentageFromWeek){
+
+     var totalBack = math.round
+
+     return totalBack;
  }
